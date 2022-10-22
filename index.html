@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/images/download.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Space X</title>
+</head>
+
+<body>
+    <img src="/assets/images/548279.jpg" alt="galaxy" class="backgroundImg">
+    <h1 id="naslov">SpaceX Project</h1>
+    <div class="container buttons">
+        <button id="all_launches">All launches</button>
+        <!-- <div>
+            <label for="single">Launch Nubmer</label>
+            <input type="number" id="single" name="singleLaunch">
+            <p class="greska">Morate uneti vrednost</p>
+        </div> -->
+        <button id="single_launch">Single launch</button>
+        <!-- <div>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year">
+            <p class="greska2">Morate uneti vrednost</p>
+        </div> -->
+        <button id="launches_per_year">Launches per year</button>
+    </div>
+    <div class="form position">
+            <div class="singleLaunchForm">
+                <label for="single">Launch Nubmer</label>
+                <input type="number" id="single" name="singleLaunch">
+                <p class="greska">Morate uneti vrednost</p>
+                <button id="singleLaunchForm">Submit</button>
+            </div>
+            <div class="launches_per_yearForm">
+                <label for="year">Year:</label>
+                <!-- <input type="number" id="year" name="year"> -->
+                <select name="year" id="year"></select>
+                <p class="greska2">Morate uneti vrednost</p>
+                <button id="launches_per_yearForm">Submit</button>
+            </div>
+    </div>
+    <div class="container app">
+        <div class="row launch_row gy-5">
+            <!-- <div class="launch col-md-3">
+                <img src="https://images2.imgbox.com/c5/53/5jklZkPz_o.png" alt="patch">
+                <p class="launch_name">Falcon 9</p>
+                <p class="launch_year">2019</p>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
